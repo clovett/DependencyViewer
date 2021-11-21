@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="DependencyViewer.App" Category="Normal" Bounds="158.473333333333,223.84,50,25.96" Label="App" />
+    <Node Id="DependencyViewer.EdgeShape" Category="Normal" Bounds="361.77,55.96,79.08,25.96" Label="EdgeShape" />
+    <Node Id="DependencyViewer.FileEventArgs" Category="Normal" Bounds="746.688333333334,391.72,90.9733333333334,25.96" Label="FileEventArgs" />
+    <Node Id="DependencyViewer.FindDialog" Category="Normal" Bounds="263.701666666667,223.84,77.0533333333333,25.96" Label="FindDialog" />
+    <Node Id="DependencyViewer.GraphBuilder" Category="Normal" Bounds="627.331666666667,391.72,89.3566666666667,25.96" Label="GraphBuilder" />
+    <Node Id="DependencyViewer.GraphCanvas" Category="Normal" Bounds="0,391.72,89.63,25.96" Label="GraphCanvas" />
+    <Node Id="DependencyViewer.GraphGenerator" Category="External" Bounds="585.623333333333,279.8,105.483333333333,25.96" Label="GraphGenerator" />
+    <Node Id="DependencyViewer.GraphKeyboadNavigator" Category="Normal" Bounds="660.551666666667,447.68,150.68,25.96" Label="GraphKeyboadNavigator" />
+    <Node Id="DependencyViewer.GraphScroller" Category="Normal" Bounds="119.945,391.72,91.74,25.96" Label="GraphScroller" />
+    <Node Id="DependencyViewer.IFindTarget" Category="Normal" Bounds="518.885,391.72,78.4466666666667,25.96" Label="IFindTarget" />
+    <Node Id="DependencyViewer.IHasGraphEdge" Category="External" Bounds="458.435,111.92,101.75,25.96" Label="IHasGraphEdge" />
+    <Node Id="DependencyViewer.IHasGraphNode" Category="External" Bounds="0,111.92,104.62,25.96" Label="IHasGraphNode" />
+    <Node Id="DependencyViewer.ISelectable" Category="External" Bounds="267.82,111.92,76.98,25.96" Label="ISelectable" />
+    <Node Id="DependencyViewer.ImageGenerator" Category="Normal" Bounds="585.311666666667,223.84,106.106666666667,25.96" Label="ImageGenerator" />
+    <Node Id="DependencyViewer.NodeShape" Category="Normal" Bounds="145.335,55.96,81.95,25.96" Label="NodeShape" />
+    <Node Id="DependencyViewer.Options" Category="Normal" Bounds="472.235,223.84,61.9866666666667,25.96" Label="Options" />
+    <Node Id="DependencyViewer.RecentFileEventArgs" Category="Normal" Bounds="503.798333333333,447.68,126.753333333333,25.96" Label="RecentFileEventArgs" />
+    <Node Id="DependencyViewer.RecentFilesMenu" Category="Normal" Bounds="364.341666666667,447.68,109.456666666667,25.96" Label="RecentFilesMenu" />
+    <Node Id="DependencyViewer.SettingChangedEventArgs" Category="Normal" Bounds="0,503.64,158.096666666667,25.96" Label="SettingChangedEventArgs" />
+    <Node Id="DependencyViewer.Settings" Category="Normal" Bounds="321.685,391.72,62.64,25.96" Label="Settings" />
+    <Node Id="DependencyViewer.SubgraphShape" Category="Normal" Bounds="134.306666666667,0,104.006666666667,25.96" Label="SubgraphShape" />
+    <Node Id="DependencyViewer.Window1" Category="Normal" Bounds="371.155,223.84,70.1466666666666,25.96" Label="Window1" />
+    <Node Id="Microsoft.Sample.Controls.AutoScroll" Category="Normal" Bounds="414.325,391.72,74.56,25.96" Label="AutoScroll" />
+    <Node Id="Microsoft.Sample.Controls.ExponentialDoubleAnimation" Category="Normal" Bounds="721.418333333333,223.84,174.646666666667,25.96" Label="ExponentialDoubleAnimation" />
+    <Node Id="Microsoft.Sample.Controls.HoverGesture" Category="Normal" Bounds="241.685,447.68,92.6566666666666,25.96" Label="HoverGesture" />
+    <Node Id="Microsoft.Sample.Controls.MapZoom" Category="Normal" Bounds="702.338333333333,0,75.1766666666666,25.96" Label="MapZoom" />
+    <Node Id="Microsoft.Sample.Controls.Pan" Category="Normal" Bounds="241.685,391.72,50,25.96" Label="Pan" />
+    <Node Id="Microsoft.Sample.Controls.RectangleSelectionGesture" Category="Normal" Bounds="188.096666666667,503.64,160.94,25.96" Label="RectangleSelectionGesture" />
+    <Node Id="System.Windows.Application" Category="External" Bounds="143.421666666667,279.8,80.1033333333334,25.96" Label="Application" />
+    <Node Id="System.Windows.Controls.Canvas" Category="External" Bounds="137.178333333333,447.68,57.2733333333333,25.96" Label="Canvas" />
+    <Node Id="System.Windows.Controls.ContentControl" Category="External" Bounds="135.371666666667,111.92,101.876666666667,25.96" Label="ContentControl" />
+    <Node Id="System.Windows.IWindowService" Category="External" Bounds="451.145,335.76,104.166666666667,25.96" Label="IWindowService" />
+    <Node Id="System.Windows.Markup.IAddChild" Category="External" Bounds="150.226666666667,167.88,72.1666666666667,25.96" Label="IAddChild" />
+    <Node Id="System.Windows.Markup.IComponentConnector" Category="External" Bounds="299.665,279.8,141.126666666667,25.96" Label="IComponentConnector" />
+    <Node Id="System.Windows.Markup.IHaveResources" Category="External" Bounds="-7.105427357601E-15,335.76,102.946666666667,25.96" Label="IHaveResources" />
+    <Node Id="System.Windows.Markup.IQueryAmbient" Category="External" Bounds="133.245,335.76,100.456666666667,25.96" Label="IQueryAmbient" />
+    <Node Id="System.Windows.Media.Animation.Animatable" Category="External" Bounds="699.781666666667,55.96,80.29,25.96" Label="Animatable" />
+    <Node Id="System.Windows.Media.Animation.DoubleAnimation" Category="External" Bounds="752.17,279.8,113.143333333333,25.96" Label="DoubleAnimation" />
+    <Node Id="System.Windows.Media.Animation.IAnimatable" Category="External" Bounds="590.185,111.92,83.4833333333333,25.96" Label="IAnimatable" />
+    <Node Id="System.Windows.Media.Composition.DUCE+IResource" Category="External" Bounds="704.325,111.92,71.2033333333334,25.96" Label="IResource" />
+    <Node Id="System.Windows.Shapes.Shape" Category="External" Bounds="375.01,111.92,52.6,25.96" Label="Shape" />
+    <Node Id="System.Windows.Window" Category="External" Bounds="471.39,279.8,63.6766666666667,25.96" Label="Window" />
+  </Nodes>
+  <Links>
+    <Link Source="DependencyViewer.App" Target="System.Windows.Application" Category="Inherits" Bounds="183.473327636719,249.800003051758,0,20.9999847412109" />
+    <Link Source="DependencyViewer.EdgeShape" Target="DependencyViewer.IHasGraphEdge" Category="Inherits" Bounds="426.360748291016,81.9199981689453,49.9075012207031,25.8594818115234" />
+    <Link Source="DependencyViewer.EdgeShape" Target="DependencyViewer.ISelectable" Category="Inherits" Bounds="336.100006103516,81.9199981689453,43.1746215820313,25.4321136474609" />
+    <Link Source="DependencyViewer.EdgeShape" Target="System.Windows.Shapes.Shape" Category="Inherits" Bounds="401.309997558594,81.9199981689453,0,21" />
+    <Link Source="DependencyViewer.FindDialog" Target="System.Windows.Markup.IComponentConnector" Category="Inherits" Bounds="318.001037597656,249.800003051758,29.5052185058594,24.2810821533203" />
+    <Link Source="DependencyViewer.FindDialog" Target="System.Windows.Window" Category="Inherits" Bounds="340.666931152344,247.521606445313,122.052825927734,33.98046875" />
+    <Link Source="DependencyViewer.GraphCanvas" Target="System.Windows.Controls.Canvas" Category="Inherits" Bounds="72.8811187744141,417.679992675781,57.6018218994141,26.6396484375" />
+    <Link Source="DependencyViewer.GraphScroller" Target="System.Windows.Controls.Canvas" Category="Inherits" Bounds="165.815002441406,417.679992675781,0,21" />
+    <Link Source="DependencyViewer.ImageGenerator" Target="DependencyViewer.GraphGenerator" Category="Inherits" Bounds="638.364990234375,249.800003051758,0,20.9999847412109" />
+    <Link Source="DependencyViewer.NodeShape" Target="DependencyViewer.IHasGraphNode" Category="Inherits" Bounds="91.6963882446289,81.9199981689453,63.5321273803711,26.5317764282227" />
+    <Link Source="DependencyViewer.NodeShape" Target="DependencyViewer.ISelectable" Category="Inherits" Bounds="214.144165039063,81.9199981689453,56.1749877929688,26.1962661743164" />
+    <Link Source="DependencyViewer.NodeShape" Target="System.Windows.Controls.ContentControl" Category="Inherits" Bounds="186.309997558594,81.9199981689453,0,21" />
+    <Link Source="DependencyViewer.Options" Target="System.Windows.Markup.IComponentConnector" Category="Inherits" Bounds="409.373474121094,249.297546386719,64.1995239257813,27.0120544433594" />
+    <Link Source="DependencyViewer.Options" Target="System.Windows.Window" Category="Inherits" Bounds="503.228332519531,249.800003051758,0,20.9999847412109" />
+    <Link Source="DependencyViewer.SubgraphShape" Target="DependencyViewer.NodeShape" Category="Inherits" Bounds="186.309997558594,25.9599990844727,0,21" />
+    <Link Source="DependencyViewer.Window1" Target="System.Windows.Markup.IComponentConnector" Category="Inherits" Bounds="383.447875976563,249.800003051758,14.4302062988281,22.4309844970703" />
+    <Link Source="DependencyViewer.Window1" Target="System.Windows.Window" Category="Inherits" Bounds="428.727630615234,249.800003051758,44.2056884765625,25.5025787353516" />
+    <Link Source="Microsoft.Sample.Controls.ExponentialDoubleAnimation" Target="System.Windows.Media.Animation.DoubleAnimation" Category="Inherits" Bounds="808.741638183594,249.800003051758,0,20.9999847412109" />
+    <Link Source="Microsoft.Sample.Controls.MapZoom" Target="System.Windows.Media.Animation.Animatable" Category="Inherits" Bounds="739.926696777344,25.9599990844727,0,21" />
+    <Link Source="System.Windows.Application" Target="System.Windows.Markup.IHaveResources" Category="Inherits" Bounds="90.3770523071289,305.760009765625,62.4786911010742,26.4871826171875" />
+    <Link Source="System.Windows.Application" Target="System.Windows.Markup.IQueryAmbient" Category="Inherits" Bounds="183.473327636719,305.760009765625,0,21" />
+    <Link Source="System.Windows.Controls.ContentControl" Target="System.Windows.Markup.IAddChild" Category="Inherits" Bounds="186.309997558594,137.880004882813,0,21" />
+    <Link Source="System.Windows.Media.Animation.Animatable" Target="System.Windows.Media.Animation.IAnimatable" Category="Inherits" Bounds="664.968444824219,81.9199981689453,49.907470703125,25.8594818115234" />
+    <Link Source="System.Windows.Media.Animation.Animatable" Target="System.Windows.Media.Composition.DUCE+IResource" Category="Inherits" Bounds="739.926696777344,81.9199981689453,0,21" />
+    <Link Source="System.Windows.Window" Target="System.Windows.IWindowService" Category="Inherits" Bounds="503.228332519531,305.760009765625,0,21" Weight="2" />
+  </Links>
+  <Categories>
+    <Category Id="External" />
+    <Category Id="Inherits" />
+    <Category Id="Normal" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FFDF4F4F" />
+      <Setter Property="StrokeDashArray" Value="2,2" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External" ValueLabel="True">
+      <Condition Expression="HasCategory('External')" />
+      <Setter Property="Background" Value="#FFD74646" />
+    </Style>
+  </Styles>
+</DirectedGraph>
